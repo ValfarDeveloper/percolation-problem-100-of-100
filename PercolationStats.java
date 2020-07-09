@@ -17,7 +17,7 @@ public class PercolationStats {
         Percolation percolation;
         double[] trialsPercolationThreshold = new double[trials];
 
-        for (int i=0; i < trials ; i++) {
+        for (int i = 0 ; i < trials ; i++) {
             percolation = new Percolation(n);
 
             while (!percolation.percolates()) {
